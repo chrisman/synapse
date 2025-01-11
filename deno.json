@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "test": "deno test --allow-net",
+    "dev": "npx json-server test/orders.json",
+    "lint": "deno lint src test",
+    "fmt": "deno lint src test",
+    "docs": "deno doc --html ./src/Program.ts"
+  }
+}
